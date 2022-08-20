@@ -9,7 +9,7 @@ let package = Package(
     products: [
         .library(
             name: "SENTSDK",
-            targets: ["SENTSDK", "SENTSDKExt", "mpde"]),
+            targets: ["SENTSDK", "__SENTSDKExt", "mpde"]),
         .library(
             name: "UnzipKit",
             targets: ["UnzipKit"]),
@@ -23,15 +23,14 @@ let package = Package(
     dependencies: [],
     targets: [
         .target(
-            name: "SENTSDKExt",
+            name: "__SENTSDKExt",
             dependencies: [],
-            resources: [.copy("Resources/SENTSDK.bundle")],
-            linkerSettings: [.unsafeFlags(["-lz", "-all_load", "-lc++"])]
+            resources: [.copy("Resources/SENTSDK.bundle")]
         ),
         .binaryTarget(
             name: "SENTSDK",
-            url: "https://sentiance-u1-sdk-downloads.s3.eu-west-1.amazonaws.com/ios/frameworks/SENTSDK/???/SENTSDK-spm-???.xcframework.zip",
-            checksum: "???"
+            url: "https://sentiance-u1-sdk-downloads.s3.eu-west-1.amazonaws.com/ios/frameworks/SENTSDK/6.0.2/SENTSDK-spm-6.0.2.xcframework.zip",
+            checksum: "c36764dca1382ec872d12938ffc62bcf1296da65083a0f7afb00b5f4296f1d88"
         ),
         .binaryTarget(
             name: "SENTTensorFlowLiteC",
