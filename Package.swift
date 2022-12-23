@@ -55,7 +55,7 @@ let package = Package(
         .binaryTarget(
             name: "dskoball",
             url: "https://sentiance-u1-sdk-downloads.s3.eu-west-1.amazonaws.com/ios/frameworks/dskoball/1.0.5/dskoball.xcframework.zip",
-            checksum: "a48f9dee8b095c4075f8863c45d4c52d90f78d2761240d325c03d1b21c570591"
+            checksum: "db09f44b27b1761e783b4c0854529755308427b3407ca4b04ca40526279997e2"
         )
     ],
     swiftLanguageVersions: [.v5]
