@@ -33,8 +33,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "SENTSDK",
-            url: "https://sentiance-u1-sdk-downloads.s3.eu-west-1.amazonaws.com/ios/frameworks/SENTSDK/6.4.0-rc2/SENTSDK-spm-6.4.0-rc2.xcframework.zip",
-            checksum: "51daa2066f61d102748f88f6ecbb66b50c32a95f40c5a8469829bcab9dcae818"
+            url: "https://sentiance-u1-sdk-downloads.s3.eu-west-1.amazonaws.com/ios/frameworks/SENTSDK/6.3.3-rc1/SENTSDK-spm-6.3.3-rc1.xcframework.zip",
+            checksum: "14d83a7490fe2dbf69e4b0ad843a6c4b7845872c9a554f0b13aa76d5e6144a3f"
         ),
         .binaryTarget(
             name: "SENTTensorFlowLiteC",
@@ -58,8 +58,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "dskoball",
-            url: "https://sentiance-u1-sdk-downloads.s3.eu-west-1.amazonaws.com/ios/frameworks/dskoball/1.0.9/dskoball.xcframework.zip",
-            checksum: "00166009c7d9f27ee006581e6ab6e85944d5bc085d813f2968b97197dcc42881"
+            url: "https://sentiance-u1-sdk-downloads.s3.eu-west-1.amazonaws.com/ios/frameworks/dskoball/1.0.10/dskoball.xcframework.zip",
+            checksum: "cf5441abb49d3a44e28b806e1708f3ee521a509bd8271e1b0b0956e9e3836964"
         ),
     ],
     swiftLanguageVersions: [.v5]
