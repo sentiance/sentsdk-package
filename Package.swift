@@ -33,8 +33,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "SENTSDK",
-            url: "https://sentiance-u1-sdk-downloads.s3.eu-west-1.amazonaws.com/ios/frameworks/SENTSDK/6.5.0-rc3/SENTSDK-spm-6.5.0-rc3.xcframework.zip",
-            checksum: "cb4c59f769d552314c3d8fa5897dbcb263dd0cd7196dab9c50f429a5991bf770"
+            url: "https://sentiance-u1-sdk-downloads.s3.eu-west-1.amazonaws.com/ios/frameworks/SENTSDK/6.5.0/SENTSDK-spm-6.5.0.xcframework.zip",
+            checksum: "7c663161ab53692f44e59dd38abcb30194a86198454e2c4ef99c4c5f8bd24457"
         ),
         .binaryTarget(
             name: "SENTTensorFlowLiteC",
