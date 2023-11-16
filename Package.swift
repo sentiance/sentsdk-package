@@ -21,7 +21,7 @@ let package = Package(
         ),
         .library(
             name: "ProtocolBuffersObjC",
-            targets: ["ProtocolBuffers"]
+            targets: ["Protobuf"]
         ),
     ],
     dependencies: [],
@@ -33,8 +33,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "SENTSDK",
-            url: "https://sentiance-u1-sdk-downloads.s3.eu-west-1.amazonaws.com/ios/frameworks/SENTSDK/6.5.1/SENTSDK-spm-6.5.1.xcframework.zip",
-            checksum: "e2e399ab5ce999c52a421ea7989d2b066ad92e3b033a434aed2b0bf51416001f"
+            url: "https://sentiance-u1-sdk-downloads.s3.eu-west-1.amazonaws.com/ios/frameworks/SENTSDK/6.6.0-beta3/SENTSDK-spm-6.6.0-beta3.xcframework.zip",
+            checksum: "0f8aa3a3b08068301507b1bb7c6ca482713610849b8f644c3d43f0031a64dfb1"
         ),
         .binaryTarget(
             name: "SENTTensorFlowLiteC",
@@ -47,9 +47,9 @@ let package = Package(
             checksum: "7f25e1c509552611089599bab6d31fd9965ad9cf6054bc57512ea3ac19dd6c50"
         ),
         .binaryTarget(
-            name: "ProtocolBuffers",
-            url: "https://sentiance-u1-sdk-downloads.s3.eu-west-1.amazonaws.com/ios/frameworks/ProtocolBuffers/3.18.2/ProtocolBuffers.xcframework.zip",
-            checksum: "2faf9c5aecc9ae62ec3fc66aef964c30af548828893f0f46e168dc8850676de6"
+            name: "Protobuf",
+            url: "https://sentiance-u1-sdk-downloads.s3.eu-west-1.amazonaws.com/ios/frameworks/Protobuf/3.18.2/Protobuf.xcframework.zip",
+            checksum: "d67fa67529f1c502ff96f15ff22d79ed654c58f090ff1d36b7eaebac385ffeba"
         ),
         .binaryTarget(
             name: "mpde",
