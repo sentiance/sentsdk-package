@@ -21,7 +21,7 @@ let package = Package(
         ),
         .library(
             name: "ProtocolBuffersObjC",
-            targets: ["Protobuf"]
+            targets: ["Protobuf", "__ProtobufExt"]
         ),
     ],
     dependencies: [],
@@ -50,6 +50,11 @@ let package = Package(
             name: "Protobuf",
             url: "https://sentiance-u1-sdk-downloads.s3.eu-west-1.amazonaws.com/ios/frameworks/Protobuf/3.18.2/Protobuf.xcframework.zip",
             checksum: "d67fa67529f1c502ff96f15ff22d79ed654c58f090ff1d36b7eaebac385ffeba"
+        ),
+        .target(
+            name: "__ProtobufExt",
+            dependencies: [],
+            resources: [.copy("Resources/Protobuf_Privacy.bundle")]
         ),
         .binaryTarget(
             name: "mpde",
