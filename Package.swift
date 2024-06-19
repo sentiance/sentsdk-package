@@ -33,8 +33,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "SENTSDK",
-            url: "https://sentiance-u1-sdk-downloads.s3.eu-west-1.amazonaws.com/ios/frameworks/SENTSDK/6.8.0-beta2/SENTSDK-spm-6.8.0-beta2.xcframework.zip",
-            checksum: "42a0c0cee8449f77ffc976233b4768b4150afcaec0cba0eef4bef201606dab8c"
+            url: "https://sentiance-u1-sdk-downloads.s3.eu-west-1.amazonaws.com/ios/frameworks/SENTSDK/6.8.0-rc1/SENTSDK-spm-6.8.0-rc1.xcframework.zip",
+            checksum: "7158c9ae10dd75604672c0c9c90752bcab58ff230e86a0c29abd2f48d5599bf8"
         ),
         .binaryTarget(
             name: "SENTTensorFlowLiteC",
@@ -43,13 +43,13 @@ let package = Package(
         ),
         .binaryTarget(
             name: "UnzipKit",
-            url: "https://sentiance-u1-sdk-downloads.s3.eu-west-1.amazonaws.com/ios/frameworks/UnzipKit/1.9/UnzipKit.xcframework.zip",
-            checksum: "7f25e1c509552611089599bab6d31fd9965ad9cf6054bc57512ea3ac19dd6c50"
+            url: "https://sentiance-u1-sdk-downloads.s3.eu-west-1.amazonaws.com/ios/frameworks/UnzipKit/1.9-6f14620/UnzipKit.xcframework.zip",
+            checksum: "aedac8e0275c948db0c566929b9e7d333f1c7f6e5cfbc84195026a5b9a230b99"
         ),
         .binaryTarget(
             name: "Protobuf",
-            url: "https://sentiance-u1-sdk-downloads.s3.eu-west-1.amazonaws.com/ios/frameworks/Protobuf/3.18.3-p/Protobuf.xcframework.zip",
-            checksum: "ad43c3636283698b86990eadb2a6d3ec91b17a708357713a5c95919bbcdcbbaf"
+            url: "https://sentiance-u1-sdk-downloads.s3.eu-west-1.amazonaws.com/ios/frameworks/Protobuf/3.18.3-6f14620/Protobuf.xcframework.zip",
+            checksum: "7bb3c5ee51514f0e0a7447dd46259b1d4e25475c1fabf3c2803b7fc2caf0afd0"
         ),
         .target(
             name: "__ProtobufExt",
