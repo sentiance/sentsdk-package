@@ -17,7 +17,7 @@ let package = Package(
         ),
         .library(
             name: "TensorFlowLiteC",
-            targets: ["SENTTensorFlowLiteC"]
+            targets: ["TensorFlowLiteC"]
         ),
         .library(
             name: "ProtocolBuffersObjC",
@@ -33,13 +33,13 @@ let package = Package(
         ),
         .binaryTarget(
             name: "SENTSDK",
-            url: "https://sentiance-u1-sdk-downloads.s3.eu-west-1.amazonaws.com/ios/frameworks/SENTSDK/6.8.4/SENTSDK-spm-6.8.4.xcframework.zip",
-            checksum: "ed0c8c9c0bc91d3a23187266e68f17aa570701cbcd68af58e11fe95206f63bda"
+            url: "https://sentiance-u1-sdk-downloads.s3.eu-west-1.amazonaws.com/ios/frameworks/SENTSDK/6.9.0-alpha1/SENTSDK-spm-6.9.0-alpha1.xcframework.zip",
+            checksum: "d8dfd6183e3cb95e9a8093310253dedeeec03ec980bb825e62ca91b6d60eff25"
         ),
         .binaryTarget(
-            name: "SENTTensorFlowLiteC",
-            url: "https://sentiance-u1-sdk-downloads.s3.eu-west-1.amazonaws.com/ios/frameworks/TensorFlowLiteC/2.7.0/SENTTensorFlowLiteC.xcframework.zip",
-            checksum: "d0919bfed1872291087fafd394b7fe994c7b3cc379b108750e3b01200dafe53d"
+            name: "TensorFlowLiteC",
+            url: "https://sentiance-u1-sdk-downloads.s3.eu-west-1.amazonaws.com/ios/frameworks/TensorFlowLiteC/2.17.0/TensorFlowLiteC.xcframework.zip",
+            checksum: "a3124140f55d8bfa7a3b92c17eb2b428592d004e693ce10795ea414f4022319c"
         ),
         .binaryTarget(
             name: "UnzipKit",
@@ -58,13 +58,13 @@ let package = Package(
         ),
         .binaryTarget(
             name: "mpde",
-            url: "https://sentiance-u1-sdk-downloads.s3.eu-west-1.amazonaws.com/ios/frameworks/mpde/0.3.7-SNAPSHOT/mpde.xcframework.zip",
-            checksum: "9363b4ca3f20f6cf55aa7dfe4db664a9a67546df3c3ba1c1a79887d1934d5e7b"
+            url: "https://sentiance-u1-sdk-downloads.s3.eu-west-1.amazonaws.com/ios/frameworks/mpde/0.9.0.i/mpde.xcframework.zip",
+            checksum: "c7219c745fb7cc92c2f007f28f7d8806d8408b8f066e6f11e5a0a37c58b88109"
         ),
         .binaryTarget(
             name: "dskoball",
-            url: "https://sentiance-u1-sdk-downloads.s3.eu-west-1.amazonaws.com/ios/frameworks/dskoball/1.0.10/dskoball.xcframework.zip",
-            checksum: "cf5441abb49d3a44e28b806e1708f3ee521a509bd8271e1b0b0956e9e3836964"
+            url: "https://sentiance-u1-sdk-downloads.s3.eu-west-1.amazonaws.com/ios/frameworks/dskoball/1.1.3/dskoball.xcframework.zip",
+            checksum: "2e30dab1e115ad2f513e1f2b9f0aaae89f573d3e2a73a3d971c03cb782d9364c"
         ),
     ],
     swiftLanguageVersions: [.v5]
