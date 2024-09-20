@@ -33,13 +33,13 @@ let package = Package(
         ),
         .binaryTarget(
             name: "SENTSDK",
-            url: "https://sentiance-u1-sdk-downloads.s3.eu-west-1.amazonaws.com/ios/frameworks/SENTSDK/6.9.0-alpha1/SENTSDK-spm-6.9.0-alpha1.xcframework.zip",
-            checksum: "d8dfd6183e3cb95e9a8093310253dedeeec03ec980bb825e62ca91b6d60eff25"
+            url: "https://sentiance-u1-sdk-downloads.s3.eu-west-1.amazonaws.com/ios/frameworks/SENTSDK/6.9.0-rc1/SENTSDK-spm-6.9.0-rc1.xcframework.zip",
+            checksum: "5038f4ce3d6bb71c03deee538cecbc62fb1cf60f0bf52e4cdb9312d3ea932465"
         ),
         .binaryTarget(
             name: "TensorFlowLiteC",
             url: "https://sentiance-u1-sdk-downloads.s3.eu-west-1.amazonaws.com/ios/frameworks/TensorFlowLiteC/2.17.0/TensorFlowLiteC.xcframework.zip",
-            checksum: "a3124140f55d8bfa7a3b92c17eb2b428592d004e693ce10795ea414f4022319c"
+            checksum: "4892d28d5e5452fdf82f9b18d53aafc67e0c0a122ffe8985a1f76a8192c301af"
         ),
         .binaryTarget(
             name: "UnzipKit",
