@@ -5,7 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "SENTSDK",
-    platforms: [.iOS(.v12)],
+    platforms: [.iOS(.v13)],
     products: [
         .library(
             name: "SENTSDK",
@@ -33,8 +33,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "SENTSDK",
-            url: "https://sentiance-u1-sdk-downloads.s3.eu-west-1.amazonaws.com/ios/frameworks/SENTSDK/6.12.0-customer.greenlight/SENTSDK-spm-6.12.0-customer.greenlight.xcframework.zip",
-            checksum: "c97026d96abadd85113251d347d91abe1067f11854a33b46c071d505c48dc913"
+            url: "https://sentiance-u1-sdk-downloads.s3.eu-west-1.amazonaws.com/ios/frameworks/SENTSDK/6.13.0-rc1/SENTSDK-spm-6.13.0-rc1.xcframework.zip",
+            checksum: "95c6d214334192a9cb1010ba0669231193946da8f040da37f3756df12730d4ae"
         ),
         .binaryTarget(
             name: "TensorFlowLiteC",
