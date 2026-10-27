@@ -1,11 +1,11 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.5
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
 
 let package = Package(
     name: "SENTSDK",
-    platforms: [.iOS(.v13)],
+    platforms: [.iOS(.v15)],
     products: [
         .library(
             name: "SENTSDK",
@@ -29,8 +29,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "SENTSDK",
-            url: "https://sentiance-u1-sdk-downloads.s3.eu-west-1.amazonaws.com/ios/frameworks/SENTSDK/6.30.0/SENTSDK-spm-6.30.0.xcframework.zip",
-            checksum: "27bb961cd04b591a2d07dca41a63062e154ef619bdb71592c626d79db27343bb"
+            url: "https://sentiance-u1-sdk-downloads.s3.eu-west-1.amazonaws.com/ios/frameworks/SENTSDK/6.31.0-rc1/SENTSDK-spm-6.31.0-rc1.xcframework.zip",
+            checksum: "38b200bdc8be018beaa0f9742e6bb24673b95f1a2a83534a23f0f9d085aba13e"
         ),
         .binaryTarget(
             name: "SENTTensorFlowLiteC",
